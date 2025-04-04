@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+/* header content */
+header {
+  background-color: #ffffff;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0px solid rgb(0, 0, 0);
+  box-shadow: 0 -20.9px 29px;
+  position: fixed;
+  top: 0;
+}
+/* navbar logo content */
+.desktop-logo-container {
+  position: relative;
+  left: 2%;
+  display: flex;
+  align-items: center;
+}
+#desktop-logo-img {
+  height: 60px;
+  width: 120px;
+}
+
+/* navbar content  */
+.desktop-navbar-container {
+  width: 548px;
+  height: 80px;
+}
+.desktop-navbar-content-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desktop-navbar-content {
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+.desktop-navbar-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.desktop-navbar-content a sup {
+  color: rgb(255, 63, 108);
+  font-size: 10px;
+}
+.desktop-navbar-content a {
+  border-bottom: 3px solid white;
+}
+#men:hover {
+  border-bottom: 2px solid rgb(238, 95, 115);
+}
+#women:hover {
+  border-bottom: 2px solid rgb(251, 86, 193);
+}
+#kids:hover {
+  border-bottom: 2px solid rgb(242, 106, 16);
+}
+#home_living:hover {
+  border-bottom: 2px solid rgb(242, 194, 16);
+}
+#beauty:hover {
+  border-bottom: 2px solid rgb(13, 183, 175);
+}
+#studio:hover {
+  border-bottom: 2px solid rgb(255, 63, 108);
+}
+
+/* navbar search content */
+.desktop-searchbar-container {
+  height: 80px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+}
+#desktop-search_icon {
+  height: 40px;
+  width: 40px;
+  background-color: #f5f5f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 0 0 4px;
+}
+#search_icon {
+  height: 14px;
+  width: 14px;
+}
+#desktop-searchbar-text_content {
+  width: 525px;
+  height: 40px;
+  background-color: #f5f5f6;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  outline: none;
+}
+
+/* action bar content */
+
+.desktop-action-container a {
+  text-decoration: none;
+  color: black;
+}
+.desktop-action-container {
+  height: 80px;
+  width: 200px;
+  position: relative;
+  right: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.desktop-action-content-container span {
+  display: flex;
+  justify-content: center;
+}
+.desktop-action-container a {
+  font-size: 12px;
+  font-weight: 700;
+}
+.desktop-action-icon img {
+  height: 20px;
+  width: 20px;
+}
+
+/* main section */
+main{
+    margin: 60px 0 0 0;
+}
+.desktop-main-banner img {
+  width: 100%;
+  margin: 50px 0 ;
+}
+.coupon-heading-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+#coupons_corner {
+  height: 78;
+  width: 1200px;
+  display: block;
+}
+.off {
+  height: 130px;
+  width: 600px;
+  display: inline-block;
+}
+#march_saving {
+  height: 104px;
+  width: 1200px;
+  display: block;
+}
+#Category_heading {
+  margin-top: 30px;
+  width: 100%;
+}
+.row-content {
+  height: 340px;
+  width: 260px;
+}
+.brands-category-content {
+  display: flex;
+  display: block;
+}
+#firstline-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#secondline-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.last-content-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.last-content {
+  width: 1600px;
+  height: 290px;
+  display: flex;
+}
+#last-content-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* footer content */
+
+footer {
+  background-color: #e0e0e0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.root-container {
+  height: 445px;
+  width: 1080px;
+  display: flex;
+  padding: 20px;
+}
+#online-shopping-container {
+  height: auto;
+  width: 175px;
+}
+.footer-elementHeading h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 10px;
+  cursor: pointer;
+}
+.footer-elements {
+  font-weight: normal;
+  font-size: 10px;
+  cursor: pointer;
+}
+.footer-elements h3 {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.footer-icons {
+  height: 20px;
+  width: 20px;
+}
+.org-img {
+  height: 40px;
+  width: 48px;
+}
+.exp-img {
+  height: 32px;
+  width: 100px;
+}
+#customer-container {
+  margin: 0 5px 0 0;
+}
